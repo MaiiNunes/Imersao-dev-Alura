@@ -1,0 +1,60 @@
+*{margin: auto;}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://fondosmil.com/fondo/33992.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #9c89ff;
+  text-shadow: 2px 2px #b8c9ff;
+  margin: 50px 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  max-width: 110px;
+  width: 200px;
+  float: left;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 110px;
+}
+
+footer{
+  display: flex;
+  background-color: #9cb3fd2d;
+  color:#9CB2FD;
+  font-size:12px;
+  position: fixed;
+  justify-content:space-between;
+  bottom: 0;
+  width: 100%;
+}
